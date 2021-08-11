@@ -1,5 +1,3 @@
-import timeit
-
 def FizzBuzz(i):
 
     list = {
