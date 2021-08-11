@@ -1,7 +1,5 @@
 import timeit
 
-code = """
-
 def FizzBuzz(i):
 
     list = {
@@ -27,14 +25,6 @@ def FizzBuzz(i):
 
 i = 1
 
-while i < 100000:
+while i < 100:
     FizzBuzz(i)
-
     i = i+1
-"""
-
-
-execution_time = timeit.timeit(code, number=1)
-
-print("\n")
-print(execution_time)
